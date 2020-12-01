@@ -1,0 +1,13 @@
+.panel {
+	-active-color: blue;
+	-inactive-color: red;
+	-fx-background-color: pink;
+}
+
+.panel .annotation {
+	-fx-fill: -inactive-color;
+}
+
+.panel:active .annotation {
+	-fx-fill: -active-color;
+}
